@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh; }
+
+.container {
+  width: 100%;
+  padding: 2rem;
+  min-height: 50rem; }
+
+.goo-features {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end; }
+  .goo-features__item {
+    padding: .8rem; }
+    .goo-features__item a, .goo-features__item a:visited {
+      text-decoration: none;
+      color: black; }
+      .goo-features__item a:hover, .goo-features__item a:visited:hover {
+        border-bottom: 1px solid black; }
+
+.goo-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.goo-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45vw; }
+  .goo-search__btn {
+    border: none;
+    background-color: transparent;
+    z-index: 2; }
+    .goo-search__btn:focus {
+      outline: none; }
+  .goo-search__input {
+    height: 4.2rem;
+    width: 98%;
+    font-size: 1.6rem;
+    font-weight: 300;
+    background-color: #fff;
+    padding-inline-start: 7rem;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    border-radius: 100px;
+    margin-left: -4rem;
+    margin-right: -4rem;
+    border: 0.9px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.08); }
+    .goo-search__input:focus {
+      outline: none; }
+    .goo-search__input:focus::-webkit-input-placeholder {
+      opacity: 0; }
+  .goo-search__icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    fill: #777; }
+
+.logo {
+  width: 27.2rem;
+  height: 9rem;
+  margin-top: 13.7rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
+  line-height: 1.6; }
+
+.goo-app__notif {
+  margin-top: 5rem;
+  display: flex;
+  max-width: 46.1rem;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.app__notif-item {
+  padding-top: 1.2rem;
+  width: 11.2rem;
+  height: 10.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .app__notif-item:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+    border-radius: .5rem; }
+
+.notif-item__container {
+  margin: 0 auto;
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  background-color: #f1f3f4;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .notif-item__container img {
+    width: 2.4rem;
+    height: 2.4rem; }
+
+.notif-item__name {
+  margin-top: 1.2rem;
+  padding: .8rem .2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400; }
